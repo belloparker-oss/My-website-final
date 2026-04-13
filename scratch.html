@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Scratch Page</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type=text/css href="styles/styles.css">
+</head>
+
+<body>
+
+<h1 id="top">My Favorite Hobby: Cars</h1>
+
+<!-- ON PAGE ANCHOR -->
+<a href="#video">Jump to Video</a>
+<br><br><br>
+
+<h2>Fun Game</h2>
+<a href="app.html">Play My Web App</a>
+
+<!-- DIV 1 -->
+<div class="section1">
+  <h2>Top 3 Dream Cars</h2>
+
+  <ol>
+    <li>Lamborghini
+      <ul>
+        <li>Fast</li>
+        <li>Luxury</li>
+      </ul>
+    </li>
+
+    <li>Ferrari
+      <ul>
+        <li>Style</li>
+        <li>Performance</li>
+      </ul>
+    </li>
+    
+    <li>Jeep Wrangler
+      <ul>
+        <li>Off-road</li>
+        <li>Fun</li>
+      </ul>
+    </li>
+  </ol>
+</div>
+
+<!-- DIV 2 -->
+<div class="section2">
+  <h2>My Car</h2>
+
+  <!-- Make sure this file exists in your /images folder -->
+  <img src="images/237AE4D0-AC0F-4E64-8D9E-5938F407FD8B.JPEG" alt="Jeep" width="400">
+</div>
+
+<!-- DIV 3 -->
+<div class="section3" id="video">
+  <h2>Car Video</h2>
+
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/6k-ScUZNZjo?start=647"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+<!-- DIV 4 -->
+<div class="section4">
+  <h2>Car Sales Dashboard</h2>
+
+  <div class='tableauPlaceholder' id='viz1775757500908' style='position: relative'>
+    <noscript>
+      <a href='#'>
+        <img alt='Dashboard 1' src='https://public.tableau.com/static/images/Ca/CarSalesDashboard_17264323373290/Dashboard1/1_rss.png' style='border: none' />
+      </a>
+    </noscript>
+
+    <object class='tableauViz' style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+      <param name='embed_code_version' value='3' /> 
+      <param name='site_root' value='' />
+      <param name='name' value='CarSalesDashboard_17264323373290/Dashboard1' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image' value='https://public.tableau.com/static/images/Ca/CarSalesDashboard_17264323373290/Dashboard1/1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='en-US' />
+    </object>
+  </div>
+
+  <script type='text/javascript'>
+    var divElement = document.getElementById('viz1775757500908');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+
+    if (divElement.offsetWidth > 800) { 
+      vizElement.style.width='1400px';
+      vizElement.style.height='827px';
+    } else if (divElement.offsetWidth > 500) { 
+      vizElement.style.width='1400px';
+      vizElement.style.height='827px';
+    } else { 
+      vizElement.style.width='100%';
+      vizElement.style.height='2077px';
+    }
+
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+
+</div>
+
+<!-- NAVIGATION BACK -->
+<a href="index.html">Back to Professional Site</a>
+
+</body>
+</html>
